@@ -10,7 +10,7 @@ class GestorBase:
         pass
     
     @abstractmethod
-    def modificacion(self,identificador):
+    def modificacion(self,identificador, campo, nuevo_valor):
         pass
     
     @abstractmethod

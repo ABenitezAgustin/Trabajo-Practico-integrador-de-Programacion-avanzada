@@ -4,3 +4,5 @@ class Usuario():
         self.apellido = apellido
         self.dni = dni
     
+    def __str__(self):
+        return f"Titulo: {self.nombre}, Autor: {self.apellido}"

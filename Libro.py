@@ -7,6 +7,8 @@ class Libro():
         self.aniopubli = aniopubli
         estado = True
         
+    def __str__(self):
+        return f"Titulo: {self.titulo}, Autor: {self.autor}"    
     
         
         
