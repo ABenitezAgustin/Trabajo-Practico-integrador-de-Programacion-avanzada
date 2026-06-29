@@ -5,10 +5,10 @@ class Libro():
         self.isbn = isbn
         self.cantdepaginas = cantdepaginas
         self.aniopubli = aniopubli
-        estado = True
+        self.estado = True
         
     def __str__(self):
-        return f"Titulo: {self.titulo}, Autor: {self.autor}"    
+        return f"Titulo: {self.titulo}, Autor: {self.autor}"  
     
         
         

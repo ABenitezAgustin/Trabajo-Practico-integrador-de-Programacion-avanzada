@@ -1,8 +1,8 @@
 from abc import ABC, abstractmethod
 
-class GestorBase:
+class GestorBase(ABC):
     @abstractmethod
-    def alta(self):
+    def alta(self, *args):
         pass 
     
     @abstractmethod
@@ -10,10 +10,11 @@ class GestorBase:
         pass
     
     @abstractmethod
-    def modificacion(self,identificador, campo, nuevo_valor):
+    def modificacion(self, *args):
         pass
     
     @abstractmethod
     def listar(self):
         pass
+        
         
